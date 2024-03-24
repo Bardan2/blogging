@@ -7,7 +7,7 @@ function Loader() {
         <div
           disabled
           type="button"
-          className="py-2.5 flex justify-center  px-5 mr-2 text-sm font-medium text-gray-900    "
+          className="py-2.5 flex justify-center  px-5 mr-2 text-sm font-medium text-gray-500 "
         >
           <svg
             aria-hidden="true"

@@ -42,13 +42,12 @@ export default function AdminLogin() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen ">
       {/* Card  */}
       <Card
-        className="w-full max-w-[24rem]"
+        className="w-full max-w-[24rem] shadow-gray-500 shadow-lg"
         style={{
-          background:
-            mode === "dark" ? "rgb(30, 41, 59)" : "rgb(226, 232, 240)",
+          background: mode === "dark" ? "#0c0c2b" : "rgb(226, 232, 240)",
         }}
       >
         {/* CardHeader */}
@@ -58,8 +57,7 @@ export default function AdminLogin() {
           shadow={false}
           className="m-0 grid place-items-center rounded-b-none py-8 px-4 text-center"
           style={{
-            background:
-              mode === "dark" ? "rgb(226, 232, 240)" : "rgb(30, 41, 59)",
+            background: mode === "dark" ? "rgb(226, 232, 240)" : "#0c0c2b",
           }}
         >
           <div className="mb-4 rounded-full border border-white/10 bg-white/10 p-2 text-white">

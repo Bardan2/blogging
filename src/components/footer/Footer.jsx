@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer
       className="body-font"
-      style={{ background: mode === "dark" ? "rgb(30, 41, 59)" : "#30336b" }}
+      style={{ background: mode === "dark" ? "#0c0c2b" : "#ffffff" }}
     >
       {/* Left Content  */}
       <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
@@ -16,23 +16,23 @@ function Footer() {
           {/* logo  */}
           <img
             className="w-10"
-            src="https://cdn-icons-png.flaticon.com/128/3685/3685253.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm89UydQ0iQC04QU65T8SlyHvCTwwi_BJi1g&usqp=CAU"
             alt="logo"
           />
           {/* logo text  */}
-          <span className="ml-3 text-xl text-white">Devknus</span>
+          <span className="ml-3 text-xl text-gray-700">MyBlog</span>
         </div>
 
         {/* items  */}
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2023 Devknus —
+        <p className="text-sm text-gray-700 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+          © 2024 MyBlog —
           <a
             href="https://twitter.com/knyttneve"
             className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            @devknus
+            @myblog
           </a>
         </p>
 

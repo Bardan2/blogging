@@ -109,14 +109,14 @@ function Dashboard() {
                 {/* thead  */}
                 <thead
                   style={{
-                    background: mode === "dark" ? "white" : "rgb(30, 41, 59)",
+                    background: mode === "dark" ? "white" : "#0c0c2b",
                   }}
                   className="text-xs "
                 >
                   <tr>
                     <th
                       style={{
-                        color: mode === "dark" ? "rgb(30, 41, 59)" : "white",
+                        color: mode === "dark" ? "#0c0c2b" : "white",
                       }}
                       scope="col"
                       className="px-6 py-3"
@@ -183,8 +183,7 @@ function Dashboard() {
                           <tr
                             className=" border-b-2"
                             style={{
-                              background:
-                                mode === "dark" ? "rgb(30, 41, 59)" : "white",
+                              background: mode === "dark" ? "#0c0c2b" : "white",
                             }}
                           >
                             {/* S.No   */}

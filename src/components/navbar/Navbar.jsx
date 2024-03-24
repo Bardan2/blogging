@@ -29,7 +29,7 @@ export default function Nav() {
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-        style={{ color: mode === "dark" ? "white" : "white" }}
+        style={{ color: mode === "dark" ? "white" : "#01034f" }}
       >
         <Link to={"/"} className="flex items-center">
           Home
@@ -40,7 +40,7 @@ export default function Nav() {
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-        style={{ color: mode === "dark" ? "white" : "white" }}
+        style={{ color: mode === "dark" ? "white" : "#010342" }}
       >
         <Link to={"/allblogs"} className="flex items-center">
           Blogs
@@ -51,7 +51,7 @@ export default function Nav() {
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
-        style={{ color: mode === "dark" ? "white" : "white" }}
+        style={{ color: mode === "dark" ? "white" : "#010342" }}
       >
         <Link to={"/adminlogin"} className="flex items-center">
           Admin Login
@@ -65,7 +65,7 @@ export default function Nav() {
       {/* Navbar  */}
       <Navbar
         className="sticky inset-0 z-20 h-max max-w-full border-none rounded-none py-2 px-4 lg:px-8 lg:py-2"
-        style={{ background: mode === "dark" ? "rgb(30, 41, 59)" : "#30336b" }}
+        style={{ background: mode === "dark" ? "#121240" : "#fff" }}
       >
         {/* Desktop View  */}
         <div className="flex items-center justify-between text-blue-gray-900">
@@ -74,15 +74,15 @@ export default function Nav() {
             <Typography
               as="a"
               className="mr-4 cursor-pointer py-1.5 text-xl font-bold flex gap-2 items-center"
-              style={{ color: mode === "dark" ? "white" : "white" }}
+              style={{ color: mode === "dark" ? "white" : "#010342" }}
             >
               {/* Logo Image  */}
               <img
                 className=" w-10 h-10 "
-                src="https://cdn-icons-png.flaticon.com/128/3685/3685253.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm89UydQ0iQC04QU65T8SlyHvCTwwi_BJi1g&usqp=CAU"
               />
               {/* Logo Text  */}
-              <span>Devknus</span>
+              <span>MyBlog</span>
             </Typography>
           </Link>
 
@@ -119,8 +119,8 @@ export default function Nav() {
                       style={{
                         border:
                           mode === "dark"
-                            ? "2px solid rgb(226, 232, 240)"
-                            : "2px solid rgb(30, 41, 59)",
+                            ? "2px solid white"
+                            : "2px solid #01034f",
                       }}
                     />
                   </div>

@@ -16,10 +16,10 @@ function MyState(props) {
   const toggleMode = () => {
     if (mode === "light") {
       setMode("dark");
-      document.body.style.backgroundColor = "rgb(17, 24, 39)";
+      document.body.style.backgroundColor = "#0f0f30";
     } else {
       setMode("light");
-      document.body.style.backgroundColor = "white";
+      document.body.style.backgroundColor = "#f0f0f5";
     }
   };
 

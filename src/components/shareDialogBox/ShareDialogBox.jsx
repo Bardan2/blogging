@@ -21,7 +21,7 @@ export default function ShareDialogBox() {
       <div className="ml-auto">
         <AiOutlineShareAlt
           onClick={handleOpen}
-          style={{ color: mode === "dark" ? "white" : "white" }}
+          color={mode === "dark" ? "white" : "#01034f"}
           size={20}
         />
       </div>

@@ -40,8 +40,7 @@ function AllBlogs() {
                     <div key={index} className="p-4 md:w-1/3">
                       <div
                         style={{
-                          background:
-                            mode === "dark" ? "rgb(30, 41, 59)" : "white",
+                          background: mode === "dark" ? "#0c0c2b" : "white",
                           borderBottom:
                             mode === "dark"
                               ? " 4px solid rgb(226, 232, 240)"
